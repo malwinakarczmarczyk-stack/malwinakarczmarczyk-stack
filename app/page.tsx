@@ -13,7 +13,7 @@ import CtaBand from "@/components/CtaBand";
 const PAIN_POINTS = [
   {
     icon: RefreshCw,
-    text: "Siedzisz na diecie za dietą — a efekt jo-jo wraca jak bumerang.",
+    text: "Ciągle jesteś na diecie, a waga nie chce spaść.",
   },
   {
     icon: Frown,
