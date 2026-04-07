@@ -8,7 +8,8 @@ readingTime: "5 min czytania"
 
 ## Stres a masa ciała — dlaczego to takie skomplikowane?
 
-Wiele osób zauważa, że w stresujących okresach życia przybiera na wadze — nawet jeśli nie zmienia diety. To nie przypadek i na pewno nie kwestia „słabej woli". Za ten mechanizm odpowiada w dużej mierze **kortyzol** — hormon stresu.
+Wiele osób zauważa, że w stresujących okresach życia przybiera na wadze — nawet jeśli nie zmienia diety. To nie przypadek i na pewno nie kwestia „słabej woli". Za ten mechanizm odpowiada w dużej mierze **kortyzol** — hormon stresu. 
+;)
 
 ## Czym jest kortyzol?
 
