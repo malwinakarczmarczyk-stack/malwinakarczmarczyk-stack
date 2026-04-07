@@ -1,0 +1,116 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-primary: #7C9A82;
+  --color-primary-dark: #5A7A60;
+  --color-primary-light: #D4E4D7;
+  --color-secondary: #E8DCC8;
+  --color-accent: #C67D5B;
+  --color-accent-dark: #A8603E;
+  --color-neutral-900: #2D2D2D;
+  --color-neutral-600: #6B6B6B;
+  --color-neutral-200: #EBEBEB;
+  --color-background: #FAFAF7;
+  --color-white: #FFFFFF;
+
+  --font-heading: var(--font-playfair);
+  --font-body: var(--font-inter);
+}
+
+/* Base styles */
+body {
+  background-color: var(--color-background);
+  color: var(--color-neutral-900);
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-heading), Georgia, serif;
+}
+
+/* Skip link for accessibility */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  z-index: 100;
+  padding: 0.5rem 1rem;
+  background: var(--color-primary);
+  color: white;
+  text-decoration: none;
+}
+
+.skip-link:focus {
+  top: 0;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Prose styles for markdown content */
+.prose h2 {
+  font-family: var(--font-heading), Georgia, serif;
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 2.5rem;
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  color: var(--color-neutral-900);
+}
+
+.prose h3 {
+  font-family: var(--font-heading), Georgia, serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 2rem;
+  margin-bottom: 0.75rem;
+  color: var(--color-neutral-900);
+}
+
+.prose p {
+  margin-bottom: 1.25rem;
+  line-height: 1.75;
+}
+
+.prose ul, .prose ol {
+  margin-bottom: 1.25rem;
+  padding-left: 1.5rem;
+}
+
+.prose ul {
+  list-style-type: disc;
+}
+
+.prose ol {
+  list-style-type: decimal;
+}
+
+.prose li {
+  margin-bottom: 0.5rem;
+  line-height: 1.75;
+}
+
+.prose strong {
+  font-weight: 600;
+  color: var(--color-neutral-900);
+}
+
+.prose blockquote {
+  border-left: 4px solid var(--color-primary);
+  padding-left: 1rem;
+  margin: 1.5rem 0;
+  color: var(--color-neutral-600);
+  font-style: italic;
+}
+
+.prose a {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
+}
+
+.prose a:hover {
+  color: var(--color-primary);
+}
